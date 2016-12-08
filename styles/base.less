@@ -46,6 +46,10 @@ atom-text-editor, :host {
     color: @syntax-cursor-color;
   }
 
+  .highlight-selected.region {
+    border: 1px solid @oceanic-eighties-selection-border;
+  }
+
   .selection .region {
     background-color: @syntax-selection-color;
     border: 1px solid @oceanic-eighties-selection-border;
@@ -257,6 +261,11 @@ atom-text-editor .search-results .marker.current-result .region,
   &.function {
     .readwrite {
       color: @syntax-constants-color;
+    }
+  }
+  &.property-list {
+    .property-name {
+      color: @syntax-property-name-color;
     }
   }
 }
