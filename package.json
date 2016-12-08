@@ -1,0 +1,15 @@
+{
+  "name": "oceanic-eighties-syntax",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "A port of the Oceanic Eighties syntax theme from Sublime Text",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/scottdj92/oceanic-eighties-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
