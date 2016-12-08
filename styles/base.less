@@ -184,7 +184,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.section.embedded {
-    color: darken(@red, 10%);
+    color: @syntax-text-color;
   }
 
 }
@@ -237,8 +237,9 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .meta {
-  &.class {
-    color: @light-orange;
+
+  &.brace {
+    color: inherit;
   }
 
   &.link {
